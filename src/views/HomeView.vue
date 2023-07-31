@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+  import {ElButton} from 'element-plus'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div>
+    <el-button>我是 ElButton</el-button>
+  </div>
 </template>
